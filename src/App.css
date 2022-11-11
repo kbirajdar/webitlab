@@ -1,3 +1,8 @@
 .App{
     position: relative;
 }
+@media only screen and (max-device-width: 480px){
+    .App{
+        width: auto;
+    }
+}
