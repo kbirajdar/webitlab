@@ -1,0 +1,63 @@
+.second {
+    width: 1920px;
+    height: 1224px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.heading2 {
+    text-align: center;
+    font: normal normal 900 60px/60px Gilroy;
+    letter-spacing: 0px;
+    color: #00FF00;
+    text-transform: uppercase;
+    opacity: 1;
+    position: absolute;
+    top: 2rem;
+}
+
+
+.subHeading2 {
+    text-align: center;
+    font: normal normal medium 16px/55px Gilroy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+    top: 8.9rem;
+}
+.iconGroup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.iconSubGroup {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.iconName2 {
+    text-align: left;
+    font: normal normal 600 24px/30px Gilroy;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    color: white;
+    opacity: 1;
+    padding-left: 0.5rem;
+}
+.group{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50%;
+}

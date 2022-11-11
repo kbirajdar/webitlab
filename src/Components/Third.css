@@ -1,0 +1,44 @@
+.third {
+    width: 1920px;
+    height: 1224px;
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading3 {
+    text-align: center;
+    font: normal normal 900 60px/60px Gilroy;
+    letter-spacing: 0px;
+    color: #09090A;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 2.5rem;
+}
+
+.iconGroup {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.iconSubGroup {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.iconName {
+    text-align: left;
+    font: normal normal 600 24px/30px Gilroy;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    padding-left: 0.5rem;
+}
